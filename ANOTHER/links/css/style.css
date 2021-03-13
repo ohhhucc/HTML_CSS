@@ -1,11 +1,16 @@
 @import url(reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+body {
+	transition-duration: .5s;
+	background-color: #333;
+}
 
 .page {
 	width: 80vw;
-	font-family: 'Manrope', sans-serif;
+	font-family: 'Play', sans-serif;
 	font-size: 25px;
-	color: #333;
+	color: #fff;
 	margin: auto;
 	text-align: center;
 	padding-bottom: 70px;
@@ -16,20 +21,24 @@ h1 {
 	font-weight: 800;
 	margin-bottom: 20px;
 	font-size: 30px;
+	width: 100%;
 }
 
 li {
 	margin: 10px 0px;
 	width: 100%;
+	transition-duration: .5s;
 }
 
 a {
 	text-decoration: none;
-	color: #333;
+	color: #fff;
 }
 
 li:hover {
-	background-color: #dedfff;
+	text-shadow: 0 0 30px #fff;
 	transform: translate(+8px, +3px);
-	font-weight: 800;
+	background-image: url(../img/holographic.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 }
