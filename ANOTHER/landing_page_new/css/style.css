@@ -1,0 +1,88 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;700&display=swap');
+/* ANOTHER */
+
+.page {
+	background-image: url(../img/background_image.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* HEADER */
+
+.header {
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+
+.header-header {
+	margin-left: 40px;
+	font-family: 'Righteous', cursive;
+	color: #fff;
+	opacity: 90%;
+	font-size: 20px;
+	text-shadow: 0 0 5px #fff;
+}
+
+/* MAIN */
+
+.main-greeting {
+	height: calc(100vh - 80px);
+	display: flex;
+}
+
+.main-greeting-box {
+	margin: auto;
+	width: 780px;
+	height: 100px;
+	background-color: #fff;
+	opacity: 80%;
+	transform: translate(0px, -80px);
+	display: flex;
+}
+
+.main-greeting-box-text {
+	font-family: 'Spartan', sans-serif;
+	color: #333;
+	font-size: 45px;
+	margin: auto;
+}
+
+.main-info-one {
+}
+
+.main-info-one-me {
+	height: calc(100vh/2);
+	background-color: #fff;
+	opacity: 90%;
+}
+
+.main-info-one-me-header {
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+
+.main-info-one-me-header-header {
+	margin-left: 40px;
+	font-family: 'Righteous', cursive;
+	color: #333;
+	font-size: 20px;
+	text-shadow: 0 0 2px #333;
+}
+
+.main-info-one-page {
+	height: calc(100vh/2);
+	background-color: #333;
+	opacity: 90%;
+}
+
+.main-info-two-skills {
+	height: 100vh;
+}
+
+/* FOOTER */
+
+

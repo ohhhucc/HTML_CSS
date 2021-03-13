@@ -1,0 +1,113 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+/* ANOTHER */
+
+a {
+	color: #2C2C2C;
+	text-decoration: none;
+}
+
+.page {
+	background-image: url(../img/background_image.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* HEADER */
+
+.header-fio-container {
+	height: 65px;
+	background-color: #FCFCFC;
+	opacity: 90%;
+	box-shadow: 0px 0px 10px black;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1;
+}
+
+.header-fio {
+	font-family: 'Russo One', sans-serif;
+	font-size: 30px;
+	color: #2C2C2C;
+	font-weight: lighter;
+	margin-left: 15px
+}
+
+.header-landing-container {
+	height: 100vh;
+	display: flex;
+	text-align: center;
+}
+
+.header-landing-text {
+	margin: auto;
+	font-size: 60px;
+	color: #FCFCFC;
+	opacity: 90%;
+	font-family: 'Audiowide', cursive;
+	text-shadow: 0px 0px 20px white;
+}
+
+/* MAIN */
+
+.main-information {
+	background-color: #FCFCFC;
+	box-shadow: 0px 5px 20px black;
+	opacity: 80%;
+}
+
+.main-information-header-container {
+	height: 80px;
+	display: flex;
+}
+
+.main-information-header-container-header {
+	font-family: 'Russo One', sans-serif;
+	font-weight: lighter;
+	font-size: 25px;
+	color: #2C2C2C;
+	margin: auto;
+}
+
+.main-navigation-li {
+	display: inline;
+	margin: 0px 25px;
+	font-family: 'Russo One', sans-serif;
+	font-weight: lighter;
+	font-size: 25px;
+	color: #2C2C2C;
+}
+
+.main-information-text {
+	margin: 60px 0px;
+	opacity: 90%;
+	width: 1000px;
+	font-family: 'Comfortaa', cursive;
+	color: #FCFCFC;
+	font-size: 30px;
+}
+
+.main-information-text.without-margin {
+	margin-bottom: 0px;
+}
+
+/* FOOTER */
+
+.footer-container {
+	height: 6vh;
+	background-color: #FCFCFC;
+	box-shadow: 0px 5px 20px black;
+	opacity: 80%;
+	display: flex;
+}
+
+.footer-logo {
+	margin: auto;
+	height: 4vh;
+}
